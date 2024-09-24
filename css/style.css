@@ -1,41 +1,46 @@
-/* Tampilan navbar */
-* {
+/* Style for body */
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-nav {
-    margin: auto;
+header, section, footer{
+    padding: 20px;
     text-align: center;
-    width: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-nav ul {
-    background: aqua;
-    padding: 0 20px;
-    list-style: none;
-    position: fixed;
-    display: block;
-    width: auto;
+h1, h2 {
+    color: #333;
 }
 
-nav ul li{
-    float: right;
+/* Navbar styling */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
 }
 
-nav ul li:hover{
-    background: #d68d9a;
+.logo img{
+    width: 50px;
+    height: 50px;
 }
 
-nav ul li:hover a{
-    color: azure;
-}
-
-nav ul li a{
-    display: block;
-    padding: 25px;
-    color: #fff;
+/* Menu styling */
+.menu a{
+    margin-left: 20px;
     text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
+
+.menu a:hover{
+    color: #ddd;
+}
+
 
