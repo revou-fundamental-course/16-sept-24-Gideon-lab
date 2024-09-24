@@ -1,0 +1,41 @@
+/* Tampilan navbar */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul {
+    background: aqua;
+    padding: 0 20px;
+    list-style: none;
+    position: fixed;
+    display: block;
+    width: auto;
+}
+
+nav ul li{
+    float: right;
+}
+
+nav ul li:hover{
+    background: #d68d9a;
+}
+
+nav ul li:hover a{
+    color: azure;
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
