@@ -22,6 +22,7 @@ h1, h2 {
     align-items: center;
     background-color: #333;
     padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
 }
 
 .logo img{
@@ -43,4 +44,99 @@ h1, h2 {
     color: #ddd;
 }
 
+/* Welcome Section */
+.welcome-section{
+    margin: 20px 0;
+}
 
+.image-placeholder{
+    width: 1366px;
+    height: 578px;
+    background-color: #eee;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    color: #666;
+}
+
+/* Headquarter Section*/
+.headquarter-section{
+    margin: 40px 0;
+}
+
+.headquarters{
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.circle p{
+    margin: 0;
+}
+
+/* Message Us Section */
+.message-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+form{
+    flex: 1;
+}
+
+.form-group{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+label{
+    flex: 1;
+    text-align: left;
+}
+
+input, textarea{
+    flex: 2;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+/* Message Display Seciton */
+.message-display{
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+/*Footer*/
+footer{
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
