@@ -47,14 +47,14 @@ h1, h2 {
 .menu a{
     margin-left: 20px;
     text-decoration: none;
-    color: #be0303;
+    color: #180c0c;
     border: 1px solid #ccc;
     padding: 5px 10px;
     border-radius: 5px;
 }
 
 .menu a:hover{
-    color: #ddd;
+    color: #75e30d;
 }
 
 /* Welcome Section */
